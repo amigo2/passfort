@@ -1,7 +1,7 @@
 from rest_framework import generics
 from rest_framework import permissions
 from rest_framework import viewsets, mixins
-from reversion.views import RevisionMixin
+
 
 from .serializers import UserSerializer, DocumentsSerializer
 from .models import Document
